@@ -122,4 +122,4 @@ The original dataset is available at http://archive.ics.uci.edu/ml/datasets/Huma
 
 The complete list of the transformations made to the original data to get the step5.txt dataset and the variables in it is in the Codebook.md file.
 
-The step5.txt dataset can be read into R withread.table(header=TRUE).
+The step5.txt dataset can be read into R with read.table(header=TRUE).
