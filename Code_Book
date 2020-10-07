@@ -1,0 +1,106 @@
+To get the data presented on the step5.txt dataset I applied the following transformations to the original data:
+
+- Lowered the cases of all of the variable names.
+- Replaced the "f" and the "t" at the beginning of some variable names with a more descriptive string "frequency" and "time" respectively.
+- Removed special characters like "-", ",", "(", ")" from variable names.
+- Assigned the "subjectid" name to the subject identification variable of the train and test data.
+- Assigned the "activity" name to the activity identification variable.
+- Merged the test activity data with the activity only table.
+- Merged the train activity data with the activity only table.
+- Merged the test data with the test subject data and the activity data.
+- Merged the train data with the train subject data and the activity data.
+- United the test data with the train data.
+- Extracted only the mean and standard deviation measurements along with the subjectid and activity variables.
+- Changed the subjectid from integer class to factor class.
+- Changed the activity variable from string class to factor class.
+- From the extracted data, created the step5 dataset with the calculation of the average of each variable for each subject and each activity.
+
+The following are all the variables of the step5.txt dataset:
+- subjectid                          
+- activity
+- timebodyaccmeanx
+- timebodyaccmeany                    
+- timebodyaccmeanz                     
+- timegravityaccmeanx                 
+- timegravityaccmeany
+- timegravityaccmeanz
+- timebodyaccjerkmeanx
+- timebodyaccjerkmeany
+- timebodyaccjerkmeanz
+- timebodygyromeanx
+- timebodygyromeany
+- timebodygyromeanz
+- timebodygyrojerkmeanx
+- timebodygyrojerkmeany
+- timebodygyrojerkmeanz
+- timebodyaccmagmean
+- timegravityaccmagmean
+- timebodyaccjerkmagmean
+- timebodygyromagmean
+- timebodygyrojerkmagmean
+- frequencybodyaccmeanx
+- frequencybodyaccmeany
+- frequencybodyaccmeanz
+- frequencybodyaccmeanfreqx
+- frequencybodyaccmeanfreqy
+- frequencybodyaccmeanfreqz
+- frequencybodyaccjerkmeanx
+- frequencybodyaccjerkmeany
+- frequencybodyaccjerkmeanz
+- frequencybodyaccjerkmeanfreqx
+- frequencybodyaccjerkmeanfreqy
+- frequencybodyaccjerkmeanfreqz
+- frequencybodygyromeanx
+- frequencybodygyromeany
+- frequencybodygyromeanz
+- frequencybodygyromeanfreqx
+- frequencybodygyromeanfreqy
+- frequencybodygyromeanfreqz
+- frequencybodyaccmagmean
+- frequencybodyaccmagmeanfreq
+- frequencybodybodyaccjerkmagmean
+- frequencybodybodyaccjerkmagmeanfreq
+- frequencybodybodygyromagmean
+- frequencybodybodygyromagmeanfreq
+- frequencybodybodygyrojerkmagmean
+- frequencybodybodygyrojerkmagmeanfreq
+- angletbodyaccmeangravity
+- angletbodyaccjerkmeangravitymean
+- angletbodygyromeangravitymean
+- angletbodygyrojerkmeangravitymean
+- anglexgravitymean
+- angleygravitymean
+- anglezgravitymean
+- timebodyaccstdx
+- timebodyaccstdy
+- timebodyaccstdz
+- timegravityaccstdx
+- timegravityaccstdy
+- timegravityaccstdz
+- timebodyaccjerkstdx
+- timebodyaccjerkstdy
+- timebodyaccjerkstdz
+- timebodygyrostdx
+- timebodygyrostdy
+- timebodygyrostdz
+- timebodygyrojerkstdx
+- timebodygyrojerkstdy
+- timebodygyrojerkstdz
+- timebodyaccmagstd
+- timegravityaccmagstd
+- timebodyaccjerkmagstd
+- timebodygyromagstd
+- timebodygyrojerkmagstd
+- frequencybodyaccstdx
+- frequencybodyaccstdy
+- frequencybodyaccstdz
+- frequencybodyaccjerkstdx
+- frequencybodyaccjerkstdy
+- frequencybodyaccjerkstdz
+- frequencybodygyrostdx
+- frequencybodygyrostdy
+- frequencybodygyrostdz
+- frequencybodyaccmagstd
+- frequencybodybodyaccjerkmagstd
+- frequencybodybodygyromagstd
+- frequencybodybodygyrojerkmagstd
